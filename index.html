@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="h-screen w-screen bg-gradient-to-tr from-black via-grey-500 to-blue-700">
     <!-- HERO------PART -->
      <div id="Home">
     <main class="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
@@ -75,31 +75,158 @@
     </main>
 </div>
     <!-- SHOP-IMAGE------PART -->
-<div class="mt-20">
-    <img src="Barry's Appliance-Appliances, Consumer Electronics and Furniture.jfif" 
-    alt="Shop Picture"
-    width="100%"
-    height="">
-</div>
-<div id="Products">
-    <!-- CARDS------PART -->
-    <div class="w-full h-8">
-        <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M0 43.9999C106.667 43.9999 213.333 7.99994 320 7.99994C426.667 7.99994 533.333 43.9999 640 43.9999C746.667 43.9999 853.333 7.99994 960 7.99994C1066.67 7.99994 1173.33 43.9999 1280 43.9999C1386.67 43.9999 1440 19.0266 1440 9.01329V100H0V43.9999Z"
-                class="fill-current text-gray-400"></path>
-        </svg>
+    <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+                Unique.Electronic
+            </div>
+            <div class="flex items-center">
+                <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                    <a href="#Home" class="py-2 px-6 flex">
+                        Home
+                    </a>
+                    <a href="#About" class="py-2 px-6 flex">
+                        About
+                    </a>
+                    <a href="#Products" class="py-2 px-6 flex">
+                        Products
+                    </a>
+                    <a href="#Catagories" class="py-2 px-6 flex">
+                        Catagories
+                    </a>
+                    <a href="#Contact" class="py-2 px-6 flex">
+                        Contact
+                    </a>
+                </nav>
+                <button class="lg:hidden flex flex-col ml-4">
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="bg-white dark:bg-gray-800 h-screen h-full py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                <div class="flex items-center gap-12">
+                    <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Our Shop Gallery</h2>
+    
+                    <p class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate consequuntur possimus ullam, saepe in enim. Perspiciatis, natus reprehenderit rem qui numquam quos dolor inventore veritatis fuga corporis, nihil voluptatum!
+                    </p>
+                </div>
+    
+                <a href="#"
+                    class="inline-block rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
+                    More
+                </a>
+            </div>
+    
+            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="SMARTPHONES.jfif" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">SmartPhones</span>
+                </a>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <img src="back.jfif" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">SHOP</span>
+                </a>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <img src="Barry's Appliance-Appliances, Consumer Electronics and Furniture.jfif" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Home Appliances</span>
+                </a>
+                <!-- image - end -->
+    
+                <!-- image - start -->
+                <a href="#"
+                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="fornt.jfif" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+    
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+    
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Shop View</span>
+                </a>
+                <!-- image - end -->
+            </div>
+        </div>
     </div>
+<div id="Products">
+    <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+                Unique.Electronic
+            </div>
+            <div class="flex items-center">
+                <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                    <a href="#Home" class="py-2 px-6 flex">
+                        Home
+                    </a>
+                    <a href="#About" class="py-2 px-6 flex">
+                        About
+                    </a>
+                    <a href="#Products" class="py-2 px-6 flex">
+                        Products
+                    </a>
+                    <a href="#Catagories" class="py-2 px-6 flex">
+                        Catagories
+                    </a>
+                    <a href="#Contact" class="py-2 px-6 flex">
+                        Contact
+                    </a>
+                </nav>
+                <button class="lg:hidden flex flex-col ml-4">
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- CARDS------PART -->
 <div class="text-center p-10">
     <h1 class="font-bold text-4xl mb-4">Our Best Selling Products</h1>
 </div>
 
 <!--Grid Section - Starts Here -->
 <section id="Projects"
-    class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+    class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-40 mt-10 mb-5">
 <!-- Product card 1 - Starts Here -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <a href="card1.html" target="_blank">
             <img src="f:\CODING\CSS2\Final\air fryer (1).jfif"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
@@ -124,7 +251,7 @@
 <!-- Product card 1 - Ends Here  -->
 <!--Product card 2 - Starts Here -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <a href="card2.html" target="_blank">
             <img src="f:\CODING\CSS2\Final\air fryer (2).jfif"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
@@ -150,7 +277,7 @@
  <!--Product card 2- Ends Here  -->
 <!--Product card 3 - Starts Here -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <a href="card3.html" target="_blank">
             <img src="f:\CODING\CSS2\Final\air fryer (3).jfif"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
@@ -175,7 +302,7 @@
 <!--Product card 3 - Ends Here  -->
 <!--   Product card 4 - Starts Here  -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <a href="card4.html" target="_blank">
             <img src="f:\CODING\CSS2\Final\Eletrodomésticos para Casa Inteira em Oferta.jfif"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
@@ -200,7 +327,7 @@
 <!-- Product card 4 - Ends Here  -->
 <!-- Product card 5 - Starts Here  -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
+        <a href="card5.html" target="_blank"> 
             <img src="f:\CODING\CSS2\Final\Microwave (2).jfif"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
@@ -225,8 +352,8 @@
 <!--Product card 5 - Ends Here  -->
     <!-- Product card 6 - Starts Here -->
     <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-        <a href="#">
-            <img src="f:\CODING\CSS2\Final\Microwave (3).jfif"
+        <a href="card6.html" target="_blank" rel="noopener noreferrer">
+            <img src="OVEEN"
                     alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
             <div class="px-4 py-3 w-72">
                 <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
@@ -251,16 +378,45 @@
 </section>
 <!-- Grid Section - Ends Here -->
 </script>
-<div class="w-full h-8">
-    <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-            d="M0 43.9999C106.667 43.9999 213.333 7.99994 320 7.99994C426.667 7.99994 533.333 43.9999 640 43.9999C746.667 43.9999 853.333 7.99994 960 7.99994C1066.67 7.99994 1173.33 43.9999 1280 43.9999C1386.67 43.9999 1440 19.0266 1440 9.01329V100H0V43.9999Z"
-            class="fill-current text-gray-400"></path>
-    </svg>
+
 </div>
 </div>
 <div id="About">
 <!-- About Me------PART -->
+<header class="h-24 sm:h-32 flex items-center z-30 w-full">
+    <div class="container mx-auto px-6 flex items-center justify-between">
+        <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+            Unique.Electronic
+        </div>
+        <div class="flex items-center">
+            <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                <a href="#Home" class="py-2 px-6 flex">
+                    Home
+                </a>
+                <a href="#About" class="py-2 px-6 flex">
+                    About
+                </a>
+                <a href="#Products" class="py-2 px-6 flex">
+                    Products
+                </a>
+                <a href="#Catagories" class="py-2 px-6 flex">
+                    Catagories
+                </a>
+                <a href="#Contact" class="py-2 px-6 flex">
+                    Contact
+                </a>
+            </nav>
+            <button class="lg:hidden flex flex-col ml-4">
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+            </button>
+        </div>
+    </div>
+</header>
 <section class="bg-gray-100">
     <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-[20%]">
@@ -280,362 +436,528 @@
     </div>
 </section>
 </div>
-<hr class="Black font-bold">
-<div class="bg-gray-100 h-screen">
-    <div class="py-10 max-w-screen-lg mx-auto">
-        <div class="text-center mb-16">
-            <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
-                MEET OUR
-            </p>
-            <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-                Experience<span class="text-indigo-600"> Team</span>
-            </h3>
+<section class="bg-gray-900">
+    <div class="max-w-7xl mx-auto px-8 py-4 space-y-16">
+        <h2 class="font-heading font-bold text-white text-4xl text-center">
+            Meet Our Experience Team
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-16">
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="sung.jpg"  class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Jinwoo
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="denji.jpg"  class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Denji
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="mr.jpg"  class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Crawler
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="otji.jpg"  class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Toji
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="kenzo.jpg"  class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Kenzo
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <a href="#" target="_blank" class="space-y-4">
+                    <img src="IMG.jpg" class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56">
+
+                    <h3 class="font-medium text-white text-2xl text-center">
+                        Dabi
+                    </h3>
+                </a>
+
+                <div class="flex space-x-4 justify-center items-center">
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Twitter</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path
+                                d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">GitHub</span>
+
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 29 29">
+                            <path fill-rule="evenodd"
+                                d="M1372.32,16.8097415 C1372.32,23.1517351 1376.33105,28.5314586 1381.89427,30.4295626 C1382.59472,30.5617425 1382.84997,30.1184991 1382.84997,29.7378209 C1382.84997,29.3976778 1382.83794,28.4944483 1382.83107,27.296898 C1378.9369,28.1639984 1378.11527,25.3723581 1378.11527,25.3723581 C1377.47841,23.7139404 1376.56052,23.2724594 1376.56052,23.2724594 C1375.2894,22.3824478 1376.65678,22.4000718 1376.65678,22.4000718 C1378.06198,22.5014098 1378.80111,23.8796059 1378.80111,23.8796059 C1380.04989,26.0729117 1382.07819,25.4393292 1382.87576,25.071869 C1383.00296,24.144847 1383.36478,23.5121457 1383.76443,23.1534975 C1380.6558,22.7913244 1377.38731,21.5594074 1377.38731,16.0589595 C1377.38731,14.4921866 1377.93306,13.2100411 1378.82861,12.207236 C1378.68422,11.8441818 1378.20379,10.384034 1378.96612,8.40838451 C1378.96612,8.40838451 1380.14099,8.02241909 1382.8156,9.87998785 C1383.93202,9.56099359 1385.13009,9.40237767 1386.32043,9.39620927 C1387.50991,9.40237767 1388.70712,9.56099359 1389.82526,9.87998785 C1392.49815,8.02241909 1393.6713,8.40838451 1393.6713,8.40838451 C1394.43535,10.384034 1393.95492,11.8441818 1393.81139,12.207236 C1394.70866,13.2100411 1395.25011,14.4921866 1395.25011,16.0589595 C1395.25011,21.5735066 1391.97647,22.7869184 1388.85838,23.1420419 C1389.3603,23.5852853 1389.80808,24.4611977 1389.80808,25.8006211 C1389.80808,27.7189926 1389.79089,29.2672603 1389.79089,29.7378209 C1389.79089,30.1220239 1390.04356,30.5687921 1390.75347,30.4286814 C1396.31239,28.5261714 1400.32,23.1499727 1400.32,16.8097415 C1400.32,8.8815887 1394.05118,2.455 1386.31871,2.455 C1378.58882,2.455 1372.32,8.8815887 1372.32,16.8097415 Z"
+                                transform="translate(-1372 -2)"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <div class="grid grid-cols-3 col-gap-10">
-
-            <div class="text-center bg-white">
-                <img class="w-100" src="https://images.pexels.com/photos/1587014/pexels-photo-1587014.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
-                <div class="p-4">
-                    <div class="text-md">
-                        <a href="#"
-                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Bilal
-                            Afzal</a>
-                        <p class="text-gray-500 uppercase text-sm">Sale Manager</p>
-                    </div>
-                    <div class="my-4 flex justify-center items-center">
-                        <a href="#">
-
-                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g data-name="Layer 2">
-                                    <g data-name="facebook">
-                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
-                                        <path
-                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg></a>
-                        <a href="#">
-                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
-                                xml:space="preserve">
-                                <g id="XMLID_826_">
-                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
-		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
-		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
-		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
-		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
-		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
-		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
-		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
-		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
-		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
-		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
-		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
-                                </g>
-                            </svg></a>
-
-                        <a href="#">
-                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
-                                xml:space="preserve">
-                                <g>
-                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
-		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
-		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
-		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
-                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
-		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
-		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
-                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
-		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
-                                    <path style="fill:#FFFFFF;"
-                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
-		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
-                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
-		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
-                                </g>
-                            </svg></a>
-
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="text-center bg-white">
-                <img class="w-100" src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
-                <div class="p-4">
-                    <div class="text-md">
-                        <a href="#"
-                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Sameer
-                            Ali</a>
-                        <p class="text-gray-500 uppercase text-sm">Owner &amp; CEO</p>
-                    </div>
-                    <div class="my-4 flex justify-center items-center">
-                        <a href="#">
-
-                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g data-name="Layer 2">
-                                    <g data-name="facebook">
-                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
-                                        <path
-                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg></a>
-                        <a href="#">
-                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
-                                xml:space="preserve">
-                                <g id="XMLID_826_">
-                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
-		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
-		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
-		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
-		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
-		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
-		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
-		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
-		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
-		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
-		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
-		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
-                                </g>
-                            </svg></a>
-
-                        <a href="#">
-                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
-                                xml:space="preserve">
-                                <g>
-                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
-		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
-		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
-		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
-                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
-		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
-		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
-                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
-		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
-                                    <path style="fill:#FFFFFF;"
-                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
-		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
-                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
-		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
-                                </g>
-                            </svg></a>
-
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="text-center bg-white">
-                <img class="w-100" src="https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">
-                <div class="p-4">
-                    <div class="text-md">
-                        <a href="#"
-                            class="hover:text-indigo-500 text-gray-900 font-semibold transition duration-500 ease-in-out">Abdul-Rehman
-                            Zubair</a>
-                        <p class="text-gray-500 uppercase text-sm">Sale Manager</p>
-                    </div>
-                    <div class="my-4 flex justify-center items-center">
-                        <a href="#">
-
-                            <svg class="mr-3" width="18px" height="18px" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g data-name="Layer 2">
-                                    <g data-name="facebook">
-                                        <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"></rect>
-                                        <path
-                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </svg></a>
-                        <a href="#">
-                            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
-                                xml:space="preserve">
-                                <g id="XMLID_826_">
-                                    <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
-		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
-		c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
-		C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
-		c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
-		c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
-		c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
-		c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
-		c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
-		c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
-		c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
-		C307.394,57.037,305.009,56.486,302.973,57.388z"></path>
-                                </g>
-                            </svg></a>
-
-                        <a href="#">
-                            <svg width="19px" height="19px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                y="0px" viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;"
-                                xml:space="preserve">
-                                <g>
-                                    <path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
-		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
-		c2.154,10.955,6.371,20.809,14.255,28.326c26.126,24.888,79.294,17.142,114.128,15.767c16.73-6.096,30.663-11.138,38.134-30.251
-		c5.913-15.034,4.95-34.193,5.363-50.326C204.797,90.502,206.264,44.714,167.809,36.555z"></path>
-                                    <path d="M157.588,48.38c44.505,5.729,31.443,70.219,30.205,101.478c-0.688,17.188-3.758,30.48-21.496,36.438
-		c-23.33,7.838-57.706,5.225-81.494,1.742c-15.905-2.292-28.372-7.059-32.772-23.559c-6.967-26.08-4.996-61.373-1.971-87.957
-		c0.092-0.504,0.229-0.871,0.458-1.192C50.93,35.547,134.441,45.401,157.588,48.38z"></path>
-                                    <path style="fill:#FFFFFF;" d="M176.059,72.627c0.092-10.955-13.567-14.438-20.901-7.7c-1.971,1.833-2.888,4.629-3.025,7.654
-		c0.733,3.896,3.071,7.746,6.096,9.946C165.334,87.523,175.967,80.877,176.059,72.627z"></path>
-                                    <path style="fill:#FFFFFF;"
-                                        d="M155.754,93.94c-15.675-23.742-51.06-26.08-70.081-5.042c-12.971,14.346-13.888,38.226-4.125,55.185
-		c0.55,0.183,1.054,0.504,1.513,1.054c15.859,17.692,43.176,24.109,62.794,8.067C163.363,138.858,168.496,113.236,155.754,93.94z"></path>
-                                    <path d="M93.282,126.483c5.546,15.584,25.255,27.959,40.976,18.334c31.763-19.434-5.546-72.235-31.718-48.814
-		C93.282,101.457,89.661,116.261,93.282,126.483z"></path>
-                                </g>
-                            </svg></a>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
     </div>
-</div>
-
+</section>
 <!--Catagories------PART -->
-<hr>
-<div id="Catagories">
-<div class="bg-gray-900 py-16">
-    <div class="container mx-auto px-4">
-        <<h1 class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-500 text-5xl font-black text-center">
-            Introducing Our latest Catagories
-        </h1>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg p-8">
-                <div class="relative overflow-hidden">
-                    <img class="object-cover w-full h-full" src="download (1).jfif" alt="Product">
-                    <div class="absolute inset-0 bg-black opacity-40"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                    ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                <div class="flex items-center justify-between mt-4">
-                    <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                    <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-lg p-8">
-                <div class="relative overflow-hidden">
-                    <img class="object-cover w-full h-full" src="Explore Our Stunning Black and Gold Dinnerware Set.jfif" alt="Product">
-                    <div class="absolute inset-0 bg-black opacity-40"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                    ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                <div class="flex items-center justify-between mt-4">
-                    <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                    <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-lg p-8">
-                <div class="relative overflow-hidden">
-                    <img class="object-cover w-full h-full" src="Luxury Home Crockery Dinner Set Custom Wedding Plates Chinese Porcelain Ceramic Dinnerware Sets - Buy Blue Flower Ceramics Plates Dinner Dishes Restaurant Wholesale Price Dinnerware Sets Crockery Restaurant Hotel,.jfif" alt="Product">
-                    <div class="absolute inset-0 bg-black opacity-40"></div>
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                    ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                <div class="flex items-center justify-between mt-4">
-                    <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                    <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
-                </div>
-            </div>
-        </div>
 
-    </div>
-</div>
+<hr>
 <div id="Catagories">
-    <div class="bg-gray-900 py-16">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="download (1).jfif" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
+    <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+                Unique.Electronic
+            </div>
+            <div class="flex items-center">
+                <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                    <a href="#Home" class="py-2 px-6 flex">
+                        Home
+                    </a>
+                    <a href="#About" class="py-2 px-6 flex">
+                        About
+                    </a>
+                    <a href="#Products" class="py-2 px-6 flex">
+                        Products
+                    </a>
+                    <a href="#Catagories" class="py-2 px-6 flex">
+                        Catagories
+                    </a>
+                    <a href="#Contact" class="py-2 px-6 flex">
+                        Contact
+                    </a>
+                </nav>
+                <button class="lg:hidden flex flex-col ml-4">
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+./.<style>
+        .carousel-container {
+            perspective: 1000px;
+            touch-action: pan-y pinch-zoom;
+        }
+
+        .carousel-track {
+            transform-style: preserve-3d;
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .carousel-item {
+            backface-visibility: hidden;
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        .carousel-item.active {
+            opacity: 1;
+            transform: scale(1) translateZ(0);
+        }
+
+        @media (max-width: 640px) {
+            .carousel-item.prev {
+                opacity: 0;
+                transform: scale(0.8) translateX(-50%) translateZ(-100px);
+            }
+
+            .carousel-item.next {
+                opacity: 0;
+                transform: scale(0.8) translateX(50%) translateZ(-100px);
+            }
+        }
+
+        @media (min-width: 641px) {
+            .carousel-item.prev {
+                opacity: 0.7;
+                transform: scale(0.9) translateX(-100%) translateZ(-100px);
+            }
+
+            .carousel-item.next {
+                opacity: 0.7;
+                transform: scale(0.9) translateX(100%) translateZ(-100px);
+            }
+        }
+
+        .carousel-item.hidden {
+            opacity: 0;
+            transform: scale(0.8) translateZ(-200px);
+        }
+
+        .nav-button {
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        @media (hover: hover) {
+            .nav-button:hover {
+                background: rgba(255, 255, 255, 0.2);
+                transform: scale(1.1);
+            }
+        }
+
+        .nav-button:active {
+            transform: scale(0.95);
+        }
+
+        .progress-bar {
+            transition: width 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+    </style>
+</head>
+<body class="bg-black min-h-screen flex items-center justify-center overflow-hidden p-4 sm:p-8">
+    <!-- Background effects -->
+    <div class="fixed inset-0 -z-10">
+        <div class="absolute inset-0 bg-gradient-to-br from-violet-900/20 via-purple-900/20 to-fuchsia-900/20"></div>
+        <div class="absolute top-1/4 left-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-violet-500/10 rounded-full filter blur-3xl"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-fuchsia-500/10 rounded-full filter blur-3xl"></div>
+    </div>
+
+    <!-- Main container -->
+    <div class="w-full max-w-6xl mx-auto">
+        <!-- Carousel container -->
+        <div class="carousel-container relative">
+            <!-- Progress bar -->
+            <div class="absolute top-0 left-0 right-0 h-1 bg-white/10 rounded-full overflow-hidden z-20">
+                <div class="progress-bar absolute top-0 left-0 h-full w-1/3 bg-gradient-to-r from-violet-500 to-fuchsia-500"></div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <button class="nav-button absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center z-20 text-white touch-manipulation" onclick="prevSlide()" title="Previous slide">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            
+            <button class="nav-button absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center z-20 text-white touch-manipulation" onclick="nextSlide()" title="Next slide">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
+
+            <!-- Carousel track -->
+            <div class="carousel-track relative h-[400px] sm:h-[500px] md:h-[600px] overflow-hidden">
+                <!-- Carousel items -->
+                <div class="carousel-item active absolute top-0 left-0 w-full h-full">
+                    <div class="w-full h-full p-4 sm:p-8">
+                        <div class="w-full h-full rounded-xl sm:rounded-2xl overflow-hidden relative group">
+                            <img src="Wayfair_com - Online Home Store for Furniture, Decor, Outdoors & More.jfif" alt="Geometric art installation" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            <div class="absolute inset-0 bg-gradient-to-br from-violet-500/40 to-purple-500/40 mix-blend-overlay"></div>
+                            <div class="absolute inset-x-0 bottom-0 p-4 sm:p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                                <h3 class="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3">Crockery</h3>
+                                <p class="text-gray-200 text-sm sm:text-base md:text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
                         </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                    <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                        ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                        <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="Explore Our Stunning Black and Gold Dinnerware Set.jfif" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
+
+                <div class="carousel-item next absolute top-0 left-0 w-full h-full">
+                    <div class="w-full h-full p-4 sm:p-8">
+                        <div class="w-full h-full rounded-xl sm:rounded-2xl overflow-hidden relative group">
+                            <img src="Apple or Samsung_.jfif" alt="Futuristic tech setup" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            <div class="absolute inset-0 bg-gradient-to-br from-fuchsia-500/40 to-pink-500/40 mix-blend-overlay"></div>
+                            <div class="absolute inset-x-0 bottom-0 p-4 sm:p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                                <h3 class="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3">SmartPhones</h3>
+                                <p class="text-gray-200 text-sm sm:text-base md:text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
                         </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                    <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                        ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                        <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="Luxury Home Crockery Dinner Set Custom Wedding Plates Chinese Porcelain Ceramic Dinnerware Sets - Buy Blue Flower Ceramics Plates Dinner Dishes Restaurant Wholesale Price Dinnerware Sets Crockery Restaurant Hotel,.jfif" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
+
+                <div class="carousel-item hidden absolute top-0 left-0 w-full h-full">
+                    <div class="w-full h-full p-4 sm:p-8">
+                        <div class="w-full h-full rounded-xl sm:rounded-2xl overflow-hidden relative group">
+                            <img src="sets.jfif" alt="Abstract digital art" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                            <div class="absolute inset-0 bg-gradient-to-br from-pink-500/40 to-rose-500/40 mix-blend-overlay"></div>
+                            <div class="absolute inset-x-0 bottom-0 p-4 sm:p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
+                                <h3 class="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3">Home Appliances</h3>
+                                <p class="text-gray-200 text-sm sm:text-base md:text-lg max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, neque delectus! Tempore esse nihil repellendus! Quos, rerum deleniti? Non assumenda totam voluptas fugit? Consequatur quasi, nesciunt ipsum officia a exercitationem..</p>
+                            </div>
                         </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">Product Name</h3>
-                    <p class="text-gray-500 text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                        ante justo. Integer euismod libero id mauris malesuada tincidunt.</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">$29.99</span>
-                        <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button>
                     </div>
                 </div>
             </div>
-    
+
+            <!-- Indicators -->
+            <div class="absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 flex gap-1 sm:gap-2 z-20">
+                <button class="w-8 sm:w-12 h-1 sm:h-1.5 rounded-full bg-white/40 hover:bg-white/60 transition-colors" title="Go to slide 1"></button>
+                <button class="w-8 sm:w-12 h-1 sm:h-1.5 rounded-full bg-white/20 hover:bg-white/60 transition-colors" title="Go to slide 2"></button>
+                <button class="w-8 sm:w-12 h-1 sm:h-1.5 rounded-full bg-white/20 hover:bg-white/60 transition-colors" title="Go to slide 3"></button>
+            </div>
         </div>
     </div>
-<hr>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-item');
+        const indicators = document.querySelectorAll('.bottom-2 button, .bottom-4 button');
+        const progressBar = document.querySelector('.progress-bar');
+        let autoAdvanceTimer;
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const carousel = document.querySelector('.carousel-track');
+
+        // Add touch events for swipe
+        carousel.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+
+        function handleSwipe() {
+            const swipeThreshold = 50;
+            const diff = touchStartX - touchEndX;
+
+            if (Math.abs(diff) > swipeThreshold) {
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        }
+
+        function updateSlides() {
+            slides.forEach((slide, index) => {
+                slide.className = 'carousel-item absolute top-0 left-0 w-full h-full';
+                if (index === currentSlide) {
+                    slide.classList.add('active');
+                } else if (index === (currentSlide + 1) % slides.length) {
+                    slide.classList.add('next');
+                } else if (index === (currentSlide - 1 + slides.length) % slides.length) {
+                    slide.classList.add('prev');
+                } else {
+                    slide.classList.add('hidden');
+                }
+            });
+
+            // Update indicators
+            indicators.forEach((indicator, index) => {
+                indicator.className = `w-8 sm:w-12 h-1 sm:h-1.5 rounded-full transition-colors ${
+                    index === currentSlide ? 'bg-white/40' : 'bg-white/20'
+                } hover:bg-white/60`;
+            });
+
+            // Update progress bar
+            progressBar.style.width = `${((currentSlide + 1) / slides.length) * 100}%`;
+        }
+
+        function resetAutoAdvance() {
+            clearInterval(autoAdvanceTimer);
+            autoAdvanceTimer = setInterval(nextSlide, 3000);
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlides();
+            resetAutoAdvance();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateSlides();
+            resetAutoAdvance();
+        }
+
+        // Add click handlers to indicators
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                currentSlide = index;
+                updateSlides();
+                resetAutoAdvance();
+            });
+        });
+
+        // Initialize auto advance
+        resetAutoAdvance();
+
+        // Initialize slides
+        updateSlides();
+    </script>
+</body>
+</html>
 <!--FORM------PART -->
+
 <div id="Contact">
+    <header class="h-24 sm:h-32 flex items-center z-30 w-full">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+                Unique.Electronic
+            </div>
+            <div class="flex items-center">
+                <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                    <a href="#Home" class="py-2 px-6 flex">
+                        Home
+                    </a>
+                    <a href="#About" class="py-2 px-6 flex">
+                        About
+                    </a>
+                    <a href="#Products" class="py-2 px-6 flex">
+                        Products
+                    </a>
+                    <a href="#Catagories" class="py-2 px-6 flex">
+                        Catagories
+                    </a>
+                    <a href="#Contact" class="py-2 px-6 flex">
+                        Contact
+                    </a>
+                </nav>
+                <button class="lg:hidden flex flex-col ml-4">
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                    <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
 <div class="max-w-screen-lg mx-auto p-5">
     <div class="grid grid-cols-1 md:grid-cols-12 border">
         <div class="bg-gray-900 md:col-span-4 p-10 text-white">
@@ -794,43 +1116,127 @@
 </div>
 </div>
 <!--Footer------PART -->
-
-    <footer class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-gray-300 py-10 mt-10">
-        <div class="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
-            
-            <!-- Brand Info -->
-            <div class="text-center md:text-left w-full md:w-1/3 pr-10">
-                <h2 class="text-2xl font-bold text-white">Unique Electronics</h2>
-                <p class="mt-2 text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem, iure magnam earum corrupti voluptatem illo, suscipit officiis, possimus vitae vel. Iure modi adipisci nostrum, laudantium ea accusantium molestiae sequi.</p>
-            </div>
-            
-            <!-- Useful Links -->
-            <div class="w-full md:w-1/3 flex flex-col items-center md:items-start space-y-3">
-                <h3 class="text-lg font-semibold text-white">Quick Links</h3>
-                <a href="https://portfolio-ayyam.vercel.app/" class="hover:text-white transition duration-300">About Us</a>
-                <a href="https://portfolio-ayyam.vercel.app/" class="hover:text-white transition duration-300">Services</a>
-                <a href="https://portfolio-ayyam.vercel.app/" class="hover:text-white transition duration-300">Contact</a>
-                <a href="https://portfolio-ayyam.vercel.app/" class="hover:text-white transition duration-300">Privacy Policy</a>
-            </div>
-            
-            <!-- Social Media -->
-            <div class="w-full md:w-1/3 flex justify-center md:justify-end space-x-4">
-                <a href="https://portfolio-ayyam.vercel.app/" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11 9.95V14.9h-3v-3h3v-2.2c0-3 1.8-4.6 4.4-4.6 1.3 0 2.6.2 2.6.2v3h-1.5c-1.5 0-2 .9-2 1.8V12h3.4l-.5 3H15v7.05A10 10 0 0022 12z"/></svg>
-                </a>
-                <a href="https://portfolio-ayyam.vercel.app/" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.4 4.6c-.8.4-1.7.6-2.6.8.9-.6 1.6-1.4 1.9-2.5-.9.5-1.8.9-2.8 1.1-.8-.9-2-1.4-3.2-1.4-2.4 0-4.3 2-4.3 4.4 0 .3 0 .7.1 1C7.1 7.8 4.2 6.2 2.2 3.8c-.4.6-.6 1.4-.6 2.2 0 1.5.7 2.8 1.8 3.6-.7 0-1.4-.2-2-.5v.1c0 2.1 1.5 3.8 3.4 4.2-.4.1-.7.2-1.1.2-.3 0-.5 0-.8-.1.5 1.6 2 2.8 3.7 2.8-1.4 1.1-3.1 1.7-5 1.7-.3 0-.6 0-.8-.1 1.8 1.2 3.9 1.9 6.2 1.9 7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2.1-2.2z"/></svg>
-                </a>
-                <a href="https://portfolio-ayyam.vercel.app/" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c-5.4 0-9.8 4.4-9.8 9.8 0 4.9 3.6 8.9 8.3 9.7V14.9H7.9V12h2.6V9.8c0-2.6 1.6-4 3.9-4 1.1 0 2 .1 2.3.1v2.7h-1.6c-1.3 0-1.6.6-1.6 1.5V12h3.2l-.5 2.9H13v6.8c4.7-.8 8.3-4.8 8.3-9.7 0-5.4-4.4-9.8-9.8-9.8z"/></svg>
-                </a>
-            </div>
+<header class="h-24 sm:h-32 flex items-center z-30 w-full">
+    <div class="container mx-auto px-6 flex items-center justify-between">
+        <div class="uppercase text-gray-800 dark:text-white font-black text-3xl">
+            Unique.Electronic
         </div>
-
-        <div class="text-center text-gray-100 text-sm mt-8">
-            &copy; 2025 Unique Electronics. All rights reserved.
+        <div class="flex items-center">
+            <nav class="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+                <a href="#Home" class="py-2 px-6 flex">
+                    Home
+                </a>
+                <a href="#About" class="py-2 px-6 flex">
+                    About
+                </a>
+                <a href="#Products" class="py-2 px-6 flex">
+                    Products
+                </a>
+                <a href="#Catagories" class="py-2 px-6 flex">
+                    Catagories
+                </a>
+                <a href="#Contact" class="py-2 px-6 flex">
+                    Contact
+                </a>
+            </nav>
+            <button class="lg:hidden flex flex-col ml-4">
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+                <span class="w-6 h-1 bg-gray-800 dark:bg-white mb-1">
+                </span>
+            </button>
         </div>
-    </footer>
+    </div>
+</header>
+<footer class="bg-gray-900 text-white pt-12 pb-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <!-- Company Info -->
+        <div class="space-y-4">
+          <div class="flex items-center">
+            <svg class="h-8 w-8 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+            <span class="ml-2 text-xl font-bold">Company</span>
+          </div>
+          <p class="text-gray-400">Building innovative solutions for the modern world.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <span class="sr-only">Facebook</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <span class="sr-only">Twitter</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <span class="sr-only">Instagram</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="space-y-4">
+          <h3 class="text-lg font-semibold">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Services</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Pricing</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+          </ul>
+        </div>
+  
+        <!-- Services -->
+        <div class="space-y-4">
+          <h3 class="text-lg font-semibold">Services</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Web Development</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Mobile Apps</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">UI/UX Design</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Digital Marketing</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white transition">Cloud Solutions</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div class="space-y-4">
+          <h3 class="text-lg font-semibold">Contact Us</h3>
+          <address class="not-italic text-gray-400">
+            <p>123 Business Ave</p>
+            <p>San Francisco, CA 94107</p>
+            <p class="mt-2">Email: <a href="mailto:info@company.com" class="hover:text-white transition">info@company.com</a></p>
+            <p>Phone: <a href="tel:+11234567890" class="hover:text-white transition">+1 (123) 456-7890</a></p>
+          </address>
+        </div>
+      </div>
+  
+      <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2025 Company. All rights reserved.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-500 hover:text-white text-sm transition">Privacy Policy</a>
+          <a href="#" class="text-gray-500 hover:text-white text-sm transition">Terms of Service</a>
+          <a href="#" class="text-gray-500 hover:text-white text-sm transition">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 </html>
 </body>
 </html>
